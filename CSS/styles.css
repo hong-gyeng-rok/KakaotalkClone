@@ -1,0 +1,11 @@
+@import "reset.css";
+@import "variables.css";
+/*components*/
+@import "COMPONENTS/startus-bar.css";
+@import "COMPONENTS/nav-bar.css";
+/*screens*/
+@import "SCREENS/login.css";
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
