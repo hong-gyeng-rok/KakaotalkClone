@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - kokoatalk</title>
+    <title>Chat - kokoatalk</title>
   </head>
   <body>
     <div class="startus_bar">
@@ -24,10 +24,12 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__tittle">Friends</h1>
+      <h1 class="screen-header__tittle">Chats</h1>
       <div class="screen-header__icons">
         <!--search icon-->
         <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <!--other chat icon-->
+        <span><i class="fa-regular fa-comment-dots"></i></span>
         <!--music icon-->
         <span><i class="fa-solid fa-music"></i></span>
         <!--option icon-->
@@ -35,51 +37,23 @@
       </div>
     </header>
 
-    <a id="friends-display-link"
-      ><i class="fa-solid fa-circle-info"></i> Friends' Names Displayc
-      <i class="fa-solid fa-chevron-right fa-sxin fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
+    <main class="main-screen">
       <div class="user-components">
-        <!--User contents-->
         <div class="user-component__culomn">
           <img
             src="https://d2u3dcdbebyaiu.cloudfront.net/uploads/atch_img/309/59932b0eb046f9fa3e063b8875032edd_crop.jpeg"
-            class="user-component__avatar user-component__avatar--xl"
+            class="user-component__avatar"
           />
           <div class="user-component__text">
             <h4 class="user-component__tittle">Nicolas</h4>
-            <!--<h6 class="user-compunent__subtittle">something  is here</h6>-->
+            <h6 class="user-compunent__subtittle">
+              Please check My Kakao Account Info
+            </h6>
           </div>
         </div>
-        <!--Channel contents-->
-        <div class="user-component__culomn"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span><i class="fa-solid fa-angle-up fa-xs"></i>
-        </div>
-        <div class="user-components">
-          <div class="user-component__culomn">
-            <img
-              src="https://play-lh.googleusercontent.com/cf3DwPLbS8Z55sDvUSTQ6PL1goPdm8KbZ81g4TEUAaeUh5LDhkzdjxKQ2RX6BGpv0x4"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4
-                class="user-component__tittle user-component__tittle-not-bold"
-              >
-                Channel
-              </h4>
-            </div>
-          </div>
-          <div class="user-component__culomn">
-            <div>
-              <span>2</span>
-              <i class="fa-solid fa-chevron-right fa-sxin fa-xs"></i>
-            </div>
-          </div>
+        <div class="user-component__culomn">
+          <span class="user-component__time">21:22</span>
+          <div class="badge">1</div>
         </div>
       </div>
     </main>
@@ -89,14 +63,14 @@
         <li class="nav__btn">
           <!--user icon-->
           <a class="nav__link" href="friends.html"
-            ><i class="fa-solid fa-user fa-lg"></i
+            ><i class="fa-regular fa-user fa-lg"></i
           ></a>
         </li>
         <!--chat icon-->
         <li class="nav__btn">
           <a class="nav__link" href="chat.html">
             <span class="nav__notification badge">1</span>
-            <i class="fa-regular fa-comment fa-lg"></i>
+            <i class="fa-solid fa-comment fa-lg"></i>
           </a>
         </li>
         <!--search icon-->
@@ -105,7 +79,7 @@
             ><i class="fa-solid fa-magnifying-glass fa-lg"></i
           ></a>
         </li>
-        <!--more icon-->
+        <!--option icon-->
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
             <span class="nav__notice"></span>

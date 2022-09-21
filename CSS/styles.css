@@ -1,11 +1,21 @@
 @import "reset.css";
 @import "variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 /*components*/
 @import "COMPONENTS/startus-bar.css";
 @import "COMPONENTS/nav-bar.css";
+@import "COMPONENTS/screen-header.css";
+@import "COMPONENTS/user-component.css";
+@import "COMPONENTS/badge.css";
 /*screens*/
 @import "SCREENS/login.css";
+@import "SCREENS/friend.css";
 
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #2e363e;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
