@@ -1,0 +1,35 @@
+.alt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 5px;
+  padding-top: 35px;
+}
+
+.alt-header__culomn {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.settings-list :last-child {
+  border: none;
+}
+
+.settings-setting {
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  padding: 20px 10px;
+}
+
+.settings-setting i {
+  padding-right: 10px;
+}
+
+.settings-setting__subtittle {
+  display: flex;
+  justify-content: flex-end;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+}

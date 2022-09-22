@@ -10,3 +10,28 @@
   font-size: 10px;
   font-weight: 500;
 }
+
+.point {
+  background-color: tomato;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  top: 33px;
+  right: 10px;
+}
+
+.badge__new {
+  color: white;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 10px;
+  top: 20px;
+  left: 120px;
+}

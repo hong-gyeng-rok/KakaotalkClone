@@ -7,9 +7,13 @@
 @import "COMPONENTS/screen-header.css";
 @import "COMPONENTS/user-component.css";
 @import "COMPONENTS/badge.css";
+@import "COMPONENTS/icon-row.css";
+@import "COMPONENTS/alternative-screen-header.css";
 /*screens*/
 @import "SCREENS/login.css";
 @import "SCREENS/friend.css";
+@import "SCREENS/find.css";
+@import "SCREENS/more.css";
 
 body {
   font-family: "Roboto", sans-serif;
@@ -18,4 +22,12 @@ body {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+.color-tomato {
+  color: tomato;
+}
+
+.border-bottom-gray {
+  border-bottom: var(--main-boder);
 }
