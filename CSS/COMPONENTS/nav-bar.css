@@ -22,6 +22,7 @@
   position: absolute;
   left: 13px;
   bottom: 10px;
+  animation: notificationAnimation 3s ease-in-out infinite;
 }
 
 .nav__notice {
@@ -33,4 +34,31 @@
   border-radius: 50%;
   bottom: 17px;
   left: 17.5px;
+}
+
+.nav__btn {
+  animation: apperBtnAnimation 1s ease-in-out;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-3px) rotateY(180deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes apperBtnAnimation {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }

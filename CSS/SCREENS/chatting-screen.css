@@ -1,0 +1,143 @@
+.chat-screen {
+  background-color: #abc1d1;
+  height: 100vh;
+}
+
+.chat-screen .alt-header,
+.chat-screen .startus_bar {
+  background-color: #abc1d1;
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  top: 0;
+}
+.chat-screen .startus_bar {
+  z-index: 2;
+}
+.chat-screen .alt-header {
+  z-index: 1;
+}
+
+.main-chat {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__timestep {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  font-weight: 300;
+  padding: 8px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.message-row {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.message-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  margin-right: 10px;
+}
+
+.message-author {
+  display: block;
+  opacity: 0.8;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.message-info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__bubble {
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 20%;
+  border-top-left-radius: 0px;
+  font-size: 15px;
+}
+
+.message__time {
+  opacity: 0.5;
+  font-size: 10px;
+  font-weight: 500;
+  margin: 0px 7px;
+}
+
+.message-row--own {
+  justify-content: flex-end;
+}
+
+.message-row--own .message__bubble {
+  background-color: var(--yellow);
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+}
+
+.message-row--own .message-info {
+  flex-direction: row-reverse;
+}
+
+.reply {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  box-sizing: border-box;
+  background-color: white;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 20px;
+}
+
+.reply .reply__column:first-child {
+  width: 10%;
+}
+
+.reply .reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.reply input {
+  height: 25px;
+  width: 100%;
+  border-radius: 30px;
+  border: var(--main-boder);
+}
+
+.reply__column:last-child i,
+.reply__column:last-child button {
+  position: absolute;
+  right: 0;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  top: 3px;
+}
+
+.reply__column:last-child > i {
+  right: 30px;
+  top: 6px;
+}
+
+.reply__column button {
+  display: block;
+  background-color: var(--yellow);
+}
+
+.btn-icon {
+  left: -2px;
+}

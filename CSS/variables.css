@@ -3,3 +3,11 @@
   --horizontal-space: 15px;
   --main-boder: 1px solid rgba(0, 0, 0, 0.2);
 }
+
+.color-tomato {
+  color: tomato;
+}
+
+.border-bottom-gray {
+  border-bottom: var(--main-boder);
+}

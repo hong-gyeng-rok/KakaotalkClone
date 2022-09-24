@@ -14,6 +14,7 @@
 @import "SCREENS/friend.css";
 @import "SCREENS/find.css";
 @import "SCREENS/more.css";
+@import "SCREENS/chatting-screen.css";
 
 body {
   font-family: "Roboto", sans-serif;
@@ -22,12 +23,4 @@ body {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
-}
-
-.color-tomato {
-  color: tomato;
-}
-
-.border-bottom-gray {
-  border-bottom: var(--main-boder);
 }

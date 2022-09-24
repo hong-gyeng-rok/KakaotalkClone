@@ -9,14 +9,14 @@
   </head>
   <body>
     <div class="startus_bar">
-      <div class="startus_bar__culmn">
+      <div class="startus_bar__column">
         <span>No Service</span>
         <i class="fa-sharp fa-solid fa-wifi"></i>
       </div>
-      <div class="startus_bar__culmn">
+      <div class="startus_bar__column">
         <span>18:43</span>
       </div>
-      <div class="startus_bar__culmn">
+      <div class="startus_bar__column">
         <span>11%</span>
         <i class="fa-solid fa-battery-quarter fa-lg"></i>
         <i class="fa-sharp fa-solid fa-bolt"></i>
@@ -24,14 +24,16 @@
     </div>
 
     <header class="alt-header">
-      <div class="alt-header__culomn">
+      <div class="alt-header__column">
         <!--left arrow icon-->
-        <i class="fa-solid fa-chevron-left"></i>
+        <button id="backspace-btn" class="alt-header__column-btn">
+          <i class="fa-solid fa-chevron-left fa-xl"></i>
+        </button>
       </div>
-      <div class="alt-header__culomn">
+      <div class="alt-header__column">
         <span>Settings</span>
       </div>
-      <div class="alt-header__culomn">
+      <div class="alt-header__column">
         <!--search icon-->
         <i class="fa-solid fa-magnifying-glass"></i>
       </div>
@@ -119,5 +121,6 @@
       src="https://kit.fontawesome.com/ae89ee67ce.js"
       crossorigin="anonymous"
     ></script>
+    <script src="history-back.js"></script>
   </body>
 </html>

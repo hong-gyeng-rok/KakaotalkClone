@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatting screen - kokoatalk</title>
+  </head>
+  <body class="chat-screen">
+    <div class="startus_bar">
+      <div class="startus_bar__column">
+        <span>No Service</span>
+        <i class="fa-sharp fa-solid fa-wifi"></i>
+      </div>
+      <div class="startus_bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="startus_bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-quarter fa-lg"></i>
+        <i class="fa-sharp fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <!--left arrow icon-->
+        <button id="backspace-btn" class="alt-header__column-btn">
+          <i class="fa-solid fa-chevron-left fa-xl"></i>
+        </button>
+      </div>
+      <div class="alt-header__column">
+        <span>Serrano</span>
+      </div>
+      <div class="alt-header__column">
+        <!--search icon-->
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <!--hamburger icon-->
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+
+    <main class="main-screen more-screen main-chat">
+      <div class="chat__timestep">Tuesday, June 30, 2020</div>
+      <div class="message-row">
+        <img
+          src="https://cdn.pixabay.com/photo/2022/08/28/18/03/dog-7417233_960_720.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message-author">Serrano</span>
+          <div class="message-info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <span class="message-author"></span>
+          <div class="message-info">
+            <span class="message__bubble">What's up?</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="write a message" />
+        <i class="fa-regular fa-face-smile"></i>
+        <button><i class="fa-solid fa-arrow-up btn-icon"></i></button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/ae89ee67ce.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="history-back.js"></script>
+  </body>
+</html>
